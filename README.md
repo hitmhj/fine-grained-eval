@@ -1,5 +1,7 @@
 # 细粒度测评
 
+**Linux部署与现场DeepSeek交接请先阅读：[完整操作文档 complete_read.md](complete_read.md)。**
+
 Python **3.10+**，运行代码只依赖标准库及平台提供的 `hm_aigc` SDK。不加载Qwen权重、不执行本地推理。这是独立代码仓库；三个入口脚本直接位于仓库根目录。
 
 ```text
