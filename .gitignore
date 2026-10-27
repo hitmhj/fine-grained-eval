@@ -26,6 +26,7 @@ local/
 *.csv
 *.tsv
 *.html
+!docs/metric-design.html
 *.htm
 *.log
 results.json

@@ -2,6 +2,8 @@
 
 **Linux部署与现场DeepSeek交接请先阅读：[完整操作文档 complete_read.md](complete_read.md)。**
 
+指标规范：[设计解读（Markdown）](docs/metric-design.md) · [设计解读（离线HTML，下载后打开）](docs/metric-design.html)。包括方面×场景矩阵、9组公式、变量定义、判分边界和构造算例。
+
 Python **3.10+**，运行代码只依赖标准库及平台提供的 `hm_aigc` SDK。不加载Qwen权重、不执行本地推理。这是独立代码仓库；三个入口脚本直接位于仓库根目录。
 
 ```text
